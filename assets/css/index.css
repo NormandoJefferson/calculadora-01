@@ -4,16 +4,20 @@
 }
 
 .fundo {
-    background-image: linear-gradient(45deg, black, crimson);
+    background-image: linear-gradient(45deg, #A88C7E, #D0F5F1);
     height: 100vh;
-    color: #fff;
+    color: #A88C7E;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
+#calc {
+    color: #FFF6F2;
+}
+
 .calculadora {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #6DA8A2;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50% );
@@ -27,13 +31,13 @@
     margin: 3px;
     font-size: 25px;
     cursor: pointer;
-    background-color: rgb(31, 31, 31);
+    background-color: #A88C7E;
     border: none;
-    color: #fff;
+    color: #FFF6F2;
 }
 
 .botao:hover {
-    background-color: black;
+    background-color: #f5dcd0a5;
 }
 
 #igual {
@@ -45,12 +49,12 @@
 }
 
 #resultado {
-    background-color: #fff;
+    background-color: #FFF6F2;
     width: 207px;
     height: 30px;
     margin: 5px;
     padding: 5px;
     font-size: 25px;
-    color: black;
+    color: #6DA8A2;
     text-align: right;
 }
